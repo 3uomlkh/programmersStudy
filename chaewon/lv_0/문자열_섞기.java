@@ -1,3 +1,5 @@
+package lv_00;
+
 public class 문자열_섞기 {
     public static void main(String[] args) {
         System.out.println(solution("aaaaa", "bbbbb"));

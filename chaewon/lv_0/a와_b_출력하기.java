@@ -1,3 +1,5 @@
+package lv_00;
+
 import java.util.Scanner;
 
 public class a와_b_출력하기 {

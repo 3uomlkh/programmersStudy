@@ -1,3 +1,5 @@
+package lv_00;
+
 import java.util.Scanner;
 
 public class 덧셈식_출력하기 {

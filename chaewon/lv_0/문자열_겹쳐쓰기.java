@@ -1,3 +1,5 @@
+package lv_00;
+
 public class 문자열_겹쳐쓰기 {
     public static void main(String[] args) {
         System.out.println(solution("He11oWor1d", "lloWorl",2));

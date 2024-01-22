@@ -1,3 +1,5 @@
+package lv_00;
+
 public class 홀짝에_따라_다른_값_반환하기 {
     public static void main(String[] args) {
         System.out.println(solution(7));

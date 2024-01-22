@@ -1,3 +1,5 @@
+package lv_00;
+
 import java.util.Scanner;
 
 public class 문자열_붙여서_출력하기 {

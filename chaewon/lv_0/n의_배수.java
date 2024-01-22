@@ -1,3 +1,5 @@
+package lv_00;
+
 public class n의_배수 {
     public static void main(String[] args) {
         System.out.println(solution(98,2));

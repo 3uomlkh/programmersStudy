@@ -1,3 +1,5 @@
+package lv_00;
+
 public class 조건_문자열 {
     public static void main(String[] args) {
         System.out.println(solution("<","=",20,50));

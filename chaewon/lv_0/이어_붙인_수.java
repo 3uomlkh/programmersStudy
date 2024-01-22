@@ -1,3 +1,5 @@
+package lv_00;
+
 public class 이어_붙인_수 {
     public static void main(String[] args) {
         System.out.println(solution(new int[] {3, 4, 5, 2, 1}));

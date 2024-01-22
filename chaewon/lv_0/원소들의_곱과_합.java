@@ -1,3 +1,5 @@
+package lv_00;
+
 public class 원소들의_곱과_합 {
     public static void main(String[] args) {
         System.out.println(solution(new int[] {3, 4, 5, 2, 1}));

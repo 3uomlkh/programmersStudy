@@ -1,3 +1,5 @@
+package lv_00;
+
 public class 더_크게_합치기 {
     public static void main(String[] args) {
         System.out.println(solution(9,91));

@@ -1,3 +1,5 @@
+package lv_00;
+
 public class 코드_처리하기 {
     public static void main(String[] args) {
         System.out.println(solution("abc1abc1abc"));

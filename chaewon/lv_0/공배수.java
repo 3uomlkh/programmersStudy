@@ -1,3 +1,5 @@
+package lv_00;
+
 public class 공배수 {
     public static void main(String[] args) {
         System.out.println(solution(60,2,3));

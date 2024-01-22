@@ -1,3 +1,5 @@
+package lv_00;
+
 public class 주사위_게임_2 {
     public static void main(String[] args) {
         System.out.println(solution(2,6,1));
