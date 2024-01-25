@@ -7,7 +7,7 @@ public class 문자열_여러_번_뒤집기 {
 
     // 잘 안 풀려서 찾아보고 이해한 문제 - 다시 풀어보기, subString()에 대해 정리해보기
     public static String solution(String my_string, int[][] queries) {
-       for (int[] query : queries) {
+        for (int[] query : queries) {
             int s = query[0];
             int e = query[1];
             String s1 = "";
