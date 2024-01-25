@@ -9,7 +9,7 @@ public class 주사위_게임_3 {
         if (arr[0] == arr[3]) {
             answer = 1111 * arr[0];
         } else if (arr[0] == arr[2] || arr[1] == arr[3]) {
-            answer = (int)Math.pow((10 * arr[3] + arr[0]), 2);
+            answer = (int)Math.pow(arr[1] * 10 + (arr[0] + arr[3] - arr[1]), 2);
         } else if (arr[0] == arr[1] && arr[2] == arr[3]) {
             answer = (arr[0] + arr[2]) * (arr[2] - arr[0]);
         } else if (arr[0] == arr[1]) {
