@@ -1,4 +1,4 @@
-package lv_00;
+package lv_0;
 
 public class 두_수의_연산값_비교하기 {
     public static void main(String[] args) {

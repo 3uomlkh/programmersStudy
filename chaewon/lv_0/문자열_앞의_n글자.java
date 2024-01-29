@@ -1,3 +1,5 @@
+package lv_0;
+
 public class 문자열_앞의_n글자 {
     public static void main(String[] args) {
         System.out.println(solution("ProgrammerS123", 11));

@@ -1,4 +1,4 @@
-package lv_00;
+package lv_0;
 
 public class 문자_리스트를_문자열로_변환하기 {
     public static void main(String[] args) {

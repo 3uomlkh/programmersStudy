@@ -1,3 +1,5 @@
+package lv_0;
+
 public class 구로_나눈_나머지 {
     public static void main(String[] args) {
         System.out.println(solution("123"));

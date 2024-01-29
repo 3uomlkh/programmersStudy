@@ -1,4 +1,4 @@
-package lv_00;
+package lv_0;
 
 public class 공배수 {
     public static void main(String[] args) {

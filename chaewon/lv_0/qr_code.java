@@ -1,3 +1,5 @@
+package lv_0;
+
 public class qr_code {
     public static void main(String[] args) {
         System.out.println(solution(3, 1, "qjnwezgrpirldywt"));

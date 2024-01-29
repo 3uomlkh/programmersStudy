@@ -1,3 +1,5 @@
+package lv_0;
+
 import java.util.ArrayList;
 
 public class 배열_만들기_5 {
