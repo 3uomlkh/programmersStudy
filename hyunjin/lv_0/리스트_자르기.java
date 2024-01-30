@@ -10,7 +10,7 @@ public class 리스트_자르기 {
         int m = 0;
 
         if (n == 1) {
-            for (int i=0; i<b; i++) {
+            for (int i=0; i<=b; i++) {
                 answer.add(i, num_list[i]);
             }
         } else if (n == 2) {
