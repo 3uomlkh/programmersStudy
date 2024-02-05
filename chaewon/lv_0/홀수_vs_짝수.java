@@ -1,3 +1,5 @@
+package lv_0;
+
 import java.util.Arrays;
 
 public class 홀수_vs_짝수 {

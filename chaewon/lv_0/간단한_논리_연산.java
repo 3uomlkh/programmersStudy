@@ -1,3 +1,5 @@
+package lv_0;
+
 public class 간단한_논리_연산 {
     public static void main(String[] args) {
         System.out.println(solution(false, true, true, true));

@@ -1,3 +1,5 @@
+package lv_0;
+
 import java.util.Arrays;
 
 public class n번째_원소까지 {

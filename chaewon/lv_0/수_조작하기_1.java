@@ -1,3 +1,5 @@
+package lv_0;
+
 public class 수_조작하기_1 {
     public static void main(String[] args) {
         System.out.println(solution(0, "wsdawsdassw"));

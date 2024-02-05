@@ -1,3 +1,5 @@
+package lv_0;
+
 public class 글자_이어_붙여_문자열_만들기 {
     public static void main(String[] args) {
         String my_string = "cvsgiorszzzmrpaqpe";

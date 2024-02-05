@@ -1,3 +1,5 @@
+package lv_0;
+
 public class 문자열_여러_번_뒤집기 {
     public static void main(String[] args) {
         String my_string = "rermgorpsam";

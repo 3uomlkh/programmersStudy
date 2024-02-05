@@ -1,4 +1,4 @@
-package lv_00;
+package lv_0;
 
 import java.util.Scanner;
 

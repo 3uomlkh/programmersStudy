@@ -1,3 +1,5 @@
+package lv_0;
+
 public class 문자열의_뒤의_n_글자 {
     public static void main(String[] args) {
         System.out.println(solution("ProgrammerS123", 11));
