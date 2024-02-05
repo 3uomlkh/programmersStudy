@@ -1,4 +1,4 @@
-package lv_00;
+package lv_0;
 
 public class 홀짝에_따라_다른_값_반환하기 {
     public static void main(String[] args) {

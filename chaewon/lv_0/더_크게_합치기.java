@@ -1,4 +1,4 @@
-package lv_00;
+package lv_0;
 
 public class 더_크게_합치기 {
     public static void main(String[] args) {

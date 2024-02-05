@@ -1,3 +1,5 @@
+package lv_0;
+
 import java.util.Arrays;
 
 public class 문자_개수_세기 {

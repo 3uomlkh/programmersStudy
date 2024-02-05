@@ -1,3 +1,5 @@
+package lv_0;
+
 public class 가까운_1_찾기 {
     public static void main(String[] args) {
         System.out.println(solution(new int[]{0, 0, 0, 1}, 1));

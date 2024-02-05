@@ -1,4 +1,4 @@
-package lv_00;
+package lv_0;
 
 public class 원소들의_곱과_합 {
     public static void main(String[] args) {

@@ -1,3 +1,5 @@
+package lv_0;
+
 public class 접두사인지_확인하기 {
     public static void main(String[] args) {
         System.out.println(solution("banana", "ban"));

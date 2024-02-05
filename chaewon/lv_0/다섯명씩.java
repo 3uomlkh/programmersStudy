@@ -1,3 +1,5 @@
+package lv_0;
+
 import java.util.Arrays;
 
 public class 다섯명씩 {

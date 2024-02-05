@@ -1,3 +1,5 @@
+package lv_0;
+
 public class 첫_번쨰로_나오는_음수 {
     public static void main(String[] args) {
         System.out.println(solution(new int[] {12, 4, 15, 46, 38, -2, 15}));
