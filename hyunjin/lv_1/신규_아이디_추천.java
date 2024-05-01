@@ -5,7 +5,6 @@ public class 신규_아이디_추천 {
         System.out.println(solution("=.="	));
         System.out.println(solution("123_.def"	));
     }
-
     public static String solution(String new_id) {
         String answer = "";
 
