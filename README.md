@@ -1,14 +1,16 @@
-# 프로그래머스 기초/입문 문제풀이 스터디
+# 프로그래머스 문제풀이 스터디
 
 ## 📅스터디 기간
-- 프로그래머스 일일 도전 과제 문제에 따라 진행(`기초 day25` + `입문 day25`)
 - 기초 : 2024년 01월 15일 ~ 2024년 01월 31일
 - 입문 : 2024년 02월 01일 ~ 2024년 02월 25일
 - Lv.1 : 2024년 03월 04일 ~ 2024년 03월 31일(정답률 높은 순으로 진행, 하루 5문제 풀고 push)
+- Lv.2 : 2024년 05월 06일 ~ 2024년 05월 31일(정답률 높은 순으로 진행, 하루 2문제 풀고 push)
 
 ## 🎯스터디 목표
-- [프로그래머스 코딩 기초 트레이닝](https://school.programmers.co.kr/learn/challenges/training?order=acceptance_desc) 모든 문제 풀기
-- [프로그래머스 코딩테스트 입문](https://school.programmers.co.kr/learn/challenges/beginner?order=acceptance_desc&page=1) 모든 문제 풀기
+- ~~[프로그래머스 코딩 기초 트레이닝](https://school.programmers.co.kr/learn/challenges/training?order=acceptance_desc) 모든 문제 풀기~~(완료)
+- ~~[프로그래머스 코딩테스트 입문](https://school.programmers.co.kr/learn/challenges/beginner?order=acceptance_desc&page=1) 모든 문제 풀기~~(완료)
+- ~~[프로그래머스 Lv.1](https://school.programmers.co.kr/learn/challenges?order=acceptance_desc&page=1&levels=1&languages=java) 모든 문제 풀기~~(완료)
+- [프로그래머스 Lv.2](https://school.programmers.co.kr/learn/challenges?order=acceptance_desc&page=1&languages=java&levels=2) 모든 문제 풀기
 - 각자가 사용하는 언어의 문법과 코딩테스트 문제에 익숙해지기
 - github에 익숙해지고 커밋 습관 만들기
 - 각자의 코드를 공유하고 의견을 나누며 더 나은 코드에 대해 생각하기
@@ -46,7 +48,7 @@ git checkout {브랜치이름}
 - 다른 사람의 코드를 보며 자유롭게 코드리뷰를 한다.
 - 주말에 `채원`이 문제풀이 현황을 확인 후 `merge`한다.
 - 새 주차가 시작되면 main 브랜치와의 싱크를 맞춘 후 문제를 푼다.
-- 난이도가 올라가거나 궁금한 점이 생기면 금요일에 디스코드로 스터디한다.
+- 난이도가 올라가거나 궁금한 점이 생기면 디스코드로 의견을 나눈다.
 - 설명하고 싶은 부분이나 새로 알게 된 부분은 주석을 활용한다.
 
 ## ⚠️주의할 점
