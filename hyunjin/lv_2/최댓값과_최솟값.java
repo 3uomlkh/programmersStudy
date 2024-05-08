@@ -5,7 +5,7 @@ public class 최댓값과_최솟값 {
         System.out.println(solution("-1 -1"	));
     }
 
-    public String solution(String s) {
+    public static String solution(String s) {
         String answer = "";
 
         String[] numbers = s.split(" ");
