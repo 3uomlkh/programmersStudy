@@ -4,10 +4,10 @@ import java.util.Stack;
 
 public class 괄호_회전하기 {
     public static void main(String[] args) {
-        System.out.println("[](){}");
-        System.out.println("}]()[{");
-        System.out.println("[)(]");
-        System.out.println("}}}");
+        System.out.println(solution("[](){}"));
+        System.out.println(solution("}]()[{"));
+        System.out.println(solution("[)(]"));
+        System.out.println(solution("}}}"));
     }
 
     public static int solution(String s) {
