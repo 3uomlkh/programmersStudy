@@ -6,57 +6,59 @@ public class 뉴스_클러스터링 {
     public static void main(String[] args) {
         System.out.println(solution("FRANCE", "french"));
     }
+
     public static int solution(String str1, String str2) {
-        ArrayList<String> multiSet1 = new ArrayList<>();
-        ArrayList<String> multiSet2 = new ArrayList<>();
-        ArrayList<String> union = new ArrayList<>();
-        ArrayList<String> intersection = new ArrayList<>();
+        str1 = str1.toUpperCase();
+        str2 = str2.toUpperCase();
+        ArrayList<String> list1 = new ArrayList<>();
+        ArrayList<String> list2 = new ArrayList<>();
 
-        str1 = str1.toLowerCase();
-        str2 = str2.toLowerCase();
-
-        for(int i = 0 ; i < str1.length() - 1 ; ++i){
-            char first = str1.charAt(i);
-            char second = str1.charAt(i + 1);
-
-            if(first >= 'a' && first <= 'z' &&
-                    second >= 'a' && second <= 'z'){
-                multiSet1.add(first + "" + second);
+        for (int i = 0; i < str1.length() - 1; i++) {
+            String sub = str1.substring(i, i + 2);
+            if (isAlphabet(sub)) {
+                list1.add(sub);
             }
         }
 
-        for(int i = 0 ; i < str2.length() - 1 ; ++i){
-            char first = str2.charAt(i);
-            char second = str2.charAt(i + 1);
-
-            if(first >= 'a' && first <= 'z' &&
-                    second >= 'a' && second <= 'z'){
-                multiSet2.add(first + "" + second);
+        for (int i = 0; i < str2.length() - 1; i++) {
+            String sub = str2.substring(i, i + 2);
+            if (isAlphabet(sub)) {
+                list2.add(sub);
             }
         }
 
-        Collections.sort(multiSet1);
-        Collections.sort(multiSet2);
+        Collections.sort(list1);
+        Collections.sort(list2);
 
-        for(String s : multiSet1){
-            if(multiSet2.remove(s)){
-                intersection.add(s);
+        int intersection = 0;
+        for (int i = 0; i < list1.size(); i++) {
+            for (int j = 0; j < list2.size(); j++) {
+                if (list1.get(i).equals(list2.get(j))) {
+                    intersection++;
+                    list1.set(i, " ");
+                    list2.set(j, " ");
+                }
             }
-            union.add(s);
         }
 
-        for(String s : multiSet2){
-            union.add(s);
-        }
-
-        double jakard = 0;
-
-        if(union.size() == 0) {
+        int union = (list1.size() + list2.size()) - intersection;
+        double jakard;
+        if (union == 0) {
             jakard = 1;
         } else {
-            jakard = (double)intersection.size() / (double)union.size();
+            jakard = (double) intersection / (double) union;
         }
 
         return (int)(jakard * 65536);
+    }
+
+    private static boolean isAlphabet(String s) {
+        for (int i = 0; i < s.length(); i++) {
+            char c = s.charAt(i);
+            if ((c < 'A' || c > 'Z') && (c < 'a' || c > 'z')) {
+                return false;
+            }
+        }
+        return true;
     }
 }
